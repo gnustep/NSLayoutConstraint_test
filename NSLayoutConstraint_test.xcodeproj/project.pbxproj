@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		14C39D2D24683A070047218C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C39D2C24683A070047218C /* AppDelegate.m */; };
-		14C39D3024683A070047218C /* NSLayoutConstraint_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14C39D2E24683A070047218C /* NSLayoutConstraint_test.xcdatamodeld */; };
 		14C39D3224683A090047218C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C39D3124683A090047218C /* Assets.xcassets */; };
 		14C39D3524683A090047218C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14C39D3324683A090047218C /* MainMenu.xib */; };
 		14C39D3824683A090047218C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C39D3724683A090047218C /* main.m */; };
@@ -18,7 +17,6 @@
 		14C39D2824683A070047218C /* NSLayoutConstraint_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSLayoutConstraint_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C39D2B24683A070047218C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14C39D2C24683A070047218C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		14C39D2F24683A070047218C /* NSLayoutConstraint_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NSLayoutConstraint_test.xcdatamodel; sourceTree = "<group>"; };
 		14C39D3124683A090047218C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14C39D3424683A090047218C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		14C39D3624683A090047218C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,7 +61,6 @@
 				14C39D3624683A090047218C /* Info.plist */,
 				14C39D3724683A090047218C /* main.m */,
 				14C39D3924683A090047218C /* NSLayoutConstraint_test.entitlements */,
-				14C39D2E24683A070047218C /* NSLayoutConstraint_test.xcdatamodeld */,
 			);
 			path = NSLayoutConstraint_test;
 			sourceTree = "<group>";
@@ -139,7 +136,6 @@
 			files = (
 				14C39D2D24683A070047218C /* AppDelegate.m in Sources */,
 				14C39D3824683A090047218C /* main.m in Sources */,
-				14C39D3024683A070047218C /* NSLayoutConstraint_test.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,19 +318,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		14C39D2E24683A070047218C /* NSLayoutConstraint_test.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				14C39D2F24683A070047218C /* NSLayoutConstraint_test.xcdatamodel */,
-			);
-			currentVersion = 14C39D2F24683A070047218C /* NSLayoutConstraint_test.xcdatamodel */;
-			path = NSLayoutConstraint_test.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 14C39D2024683A070047218C /* Project object */;
 }
