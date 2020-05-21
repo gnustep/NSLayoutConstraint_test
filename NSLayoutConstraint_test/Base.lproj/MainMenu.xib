@@ -683,13 +683,35 @@
         <window title="NSLayoutConstraint_test" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="480" height="360"/>
+            <rect key="contentRect" x="335" y="390" width="764" height="410"/>
             <rect key="screenRect" x="0.0" y="0.0" width="2048" height="1129"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
+                <rect key="frame" x="0.0" y="0.0" width="764" height="410"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <box misplaced="YES" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="7Ry-eL-xM4">
+                        <rect key="frame" x="74" y="119" width="314" height="217"/>
+                        <view key="contentView" id="PD3-wO-vln">
+                            <rect key="frame" x="3" y="3" width="308" height="199"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </view>
+                    </box>
+                    <box ambiguous="YES" misplaced="YES" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="Ne4-SM-cWt">
+                        <rect key="frame" x="411" y="119" width="314" height="217"/>
+                        <view key="contentView" id="xcj-c5-OvP">
+                            <rect key="frame" x="3" y="3" width="308" height="199"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </view>
+                    </box>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="7Ry-eL-xM4" secondAttribute="bottom" constant="123" id="4N6-hq-Pta"/>
+                    <constraint firstItem="xcj-c5-OvP" firstAttribute="leading" secondItem="7Ry-eL-xM4" secondAttribute="trailing" constant="29" id="cJA-zp-zv6"/>
+                    <constraint firstItem="Ne4-SM-cWt" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="414" id="jzp-Tg-KhU"/>
+                    <constraint firstAttribute="trailing" secondItem="7Ry-eL-xM4" secondAttribute="trailing" constant="379" id="wyK-EH-sRX"/>
+                </constraints>
             </view>
-            <point key="canvasLocation" x="-292" y="-120"/>
+            <point key="canvasLocation" x="-25" y="-153"/>
         </window>
     </objects>
 </document>
