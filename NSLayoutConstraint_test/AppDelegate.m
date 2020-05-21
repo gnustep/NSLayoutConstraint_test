@@ -11,6 +11,7 @@
 @interface AppDelegate ()
 
 @property (retain) IBOutlet NSWindow *window;
+
 - (IBAction)saveAction:(id)sender;
 
 @end
@@ -26,5 +27,9 @@
     // Insert code here to tear down your application
 }
 
+- (IBAction)saveAction:(id)sender
+{
+    
+}
 
 @end
