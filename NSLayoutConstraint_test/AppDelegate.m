@@ -11,6 +11,7 @@
 @interface AppDelegate ()
 
 @property (retain) IBOutlet NSWindow *window;
+@property (retain) IBOutlet  NSLayoutConstraint *constraint;
 
 - (IBAction)saveAction:(id)sender;
 
@@ -20,6 +21,11 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    NSData *d = [NSKeyedArchiver archivedDataWithRootObject:self.constraint
+                                      requiringSecureCoding:NO error:  NULL];
+    [d writeToFile:@"constraint.data" atomically:YES];
+    d = [NSKeyedArchiver archivedDataWithRootObject:self.constraint
+                              requiringSecureCoding:NO error:  NULL];
 }
 
 
