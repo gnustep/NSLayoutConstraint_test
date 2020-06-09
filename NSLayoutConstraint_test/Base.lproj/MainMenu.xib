@@ -711,7 +711,7 @@
                     <constraint firstItem="Ne4-SM-cWt" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="414" id="O2t-MF-E2l"/>
                     <constraint firstItem="Ne4-SM-cWt" firstAttribute="leading" secondItem="PD3-wO-vln" secondAttribute="trailing" constant="29" id="Pug-vd-UiC"/>
                     <constraint firstItem="Ne4-SM-cWt" firstAttribute="width" secondItem="EiT-Mj-1SZ" secondAttribute="width" multiplier="0.403141" id="RJJ-sG-5eZ"/>
-                    <constraint firstItem="7Ry-eL-xM4" firstAttribute="height" secondItem="EiT-Mj-1SZ" secondAttribute="height" multiplier="0.519512" id="XMO-gg-Xq0"/>
+                    <constraint firstItem="7Ry-eL-xM4" firstAttribute="height" secondItem="EiT-Mj-1SZ" secondAttribute="height" multiplier="0.519512" priority="750" id="XMO-gg-Xq0"/>
                     <constraint firstItem="7Ry-eL-xM4" firstAttribute="width" secondItem="EiT-Mj-1SZ" secondAttribute="width" multiplier="0.403141" id="c9L-pz-qyG"/>
                     <constraint firstItem="7Ry-eL-xM4" firstAttribute="width" secondItem="EiT-Mj-1SZ" secondAttribute="height" multiplier="154:205" id="rYi-4K-Bd9"/>
                     <constraint firstItem="7Ry-eL-xM4" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="77" id="uWQ-PQ-EU5"/>
